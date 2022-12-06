@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #E9F3FE; }
+
+app-card.card2 .div2, app-card.card2 .pcifrao, app-card.card2 .subtitle {
+    color: white;
+}
+
+app-card.card2 .div2 {
+    background-color: #8084e5;
+    height: 450px;
+}
+
+app-card.card2 .btn {
+    border-color: white;
+}
+
+app-card.card2 .title {
+    padding-top: 40px;
+    opacity: 1;
+}
+
+app-card.card2 .btn:hover {
+    color: white;
+}
+
+app-card.card2 .content {
+    color: white;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media (max-width:608px) {
+
+    app-card.card2 .div2 {
+        background-color: #8084e5;
+        height: 280px;
+        
+    }
+}

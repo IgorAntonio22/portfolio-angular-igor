@@ -1,0 +1,10 @@
+.img-print img {
+    width: 80%;
+}
+
+@media (max-width:608px) {
+    .img-print img {
+        width: 100%;
+    }
+    
+}

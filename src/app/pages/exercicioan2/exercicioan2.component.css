@@ -1,0 +1,36 @@
+#h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 0%;
+    padding-top:80px;
+}
+
+#div, #valor {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#valor {
+    font-size: 150px;
+}
+
+.btn {
+     height: 80px;
+}
+
+.body {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+@media (max-width:600px) {
+    #h1 {
+        font-size: 75px;
+    }
+
+    #valor {
+        font-size: 100px;
+    }
+}
+

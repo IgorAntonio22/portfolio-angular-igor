@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+
+<div class="body">
+    <h1 id="h1">Contador</h1>
+    <div id="valor">{{valor}}</div>
+    <div id="div">
+    <button (click)="diminuirValor($event)" mat-raised-button color="accent" class="btn">-</button>
+    <button (click)="aumentarValor($event)" mat-raised-button color="primary" class="btn">+</button>
+    </div>
+</div>

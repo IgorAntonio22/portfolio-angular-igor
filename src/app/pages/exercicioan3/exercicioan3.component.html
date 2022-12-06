@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div class="color">
+    <h1>Our Pricing</h1>
+    <div class="div1">
+        <p class="p">Annually</p>
+        <mat-slide-toggle class="toggleslider" color="primary"></mat-slide-toggle>
+        <p class="p">Monthly</p>
+    </div>
+    <div class="div3">
+        <app-card (btnClickEvent)="mostrarSnackBar()" class="card1" conteudo1="2 Users Allowed" conteudo2="Send up to 3 GB"></app-card>
+        <app-card (btnClickEvent)="mostrarSnackBar()" class="card2" titulo="Professional" subtitulo="24.99" conteudo="1 TB Storage" conteudo1="5 Users Allowed" conteudo2="Send up to 10 GB"></app-card>
+        <app-card (btnClickEvent)="mostrarSnackBar()" class="card3" titulo="Master" subtitulo="39.99" conteudo="2 TB Storage" conteudo1="10 Users Allowed" conteudo2="Send up to 20 GB"></app-card>
+    </div>
+</div>

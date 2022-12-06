@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<div class="todo-app">
+    <app-cmp (btnClickEvent)="mostrarSnackBar()" [tarefas]="tarefas" [add]="add" [remove]="remove" [emitirEvento]="emitirEvento">
+    <app-rem [tarefas]="tarefas" [clearAll]="clearAll" (btnClickEvent1)="mostrarSnackBar2()"></app-rem>
+    </app-cmp>
+</div>

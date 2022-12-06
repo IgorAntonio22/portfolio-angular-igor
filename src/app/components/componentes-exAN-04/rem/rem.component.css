@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.clearall {
+    margin-left: 5%;
+    margin-bottom: 15%;
+    background-color: #8e4aea;
+}
+
+.p {
+    font-size: 15px;
+    margin: 2%;
+}
+

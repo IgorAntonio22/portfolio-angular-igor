@@ -1,0 +1,46 @@
+.div1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/deep/ .mat-slide-toggle-bar {
+    height: 30px !important;
+    width: 45px !important;
+    border-radius:  25px !important;
+}
+
+/deep/ .mat-slide-toggle-thumb {
+    margin-top: 25%;
+    height: 25px !important;
+    width: 25px !important;
+    background-color: white !important;
+}
+
+.p {
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #c7c6d1;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 4% 0%;
+    color: #4c4c5b;
+    padding-top: 20px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    background-color: #f7f7ff;
+}
+
+

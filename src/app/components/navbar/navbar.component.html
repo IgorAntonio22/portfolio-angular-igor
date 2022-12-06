@@ -1,0 +1,24 @@
+<div class="container">
+    <header class="header">
+        <ul>
+            <li><a class="menu" (click)="openDialog()" class="box">Menu</a></li>
+            <li><a routerLink="/" class="menu-link">{{"Início" | translate}}</a></li>
+            <li><a routerLink="/portfolio" class="menu-link">{{"Portfólio" | translate}}</a></li>
+            <li><a routerLink="/contato" class="menu-link">{{"Contato" | translate}}</a></li>
+            <li><span class="form-inline">
+                <select
+                    class="form-control"
+                    #selectedLang
+                    (change)="switchLanguage(selectedLang.value)">
+                    <option *ngFor="let language of translate.getLangs()"
+                    [value]="language"
+                    [selected]="language === translate.currentLang">
+                    {{ language }}
+                    </option>
+                </select>
+                </span>
+            </li>
+        </ul>
+       
+    </header>
+</div>
