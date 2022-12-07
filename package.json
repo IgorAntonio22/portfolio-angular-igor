@@ -2,9 +2,8 @@
   "name": "portfolioangularigor",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build",
     "ng": "ng",
-    "start": "ng server.js",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -40,6 +39,7 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "typescript": "~4.7.2",
+    "web-animations-js": "^2.3.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
